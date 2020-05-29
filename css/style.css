@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align: baseline; background:transparent;}
+		
+ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6, li {line-height:100%;}
+blockquote, q {quotes:none;}
+table {border-collapse:collapse; border-spacing:0;}
+
+/* General------------------------------------------------------------------------- */
+
+body {font: 62.5% "Times New Roman",Georgia,Serif; line-height:normal; background: #114962 url(../images/bg.jpg); }
+
+img{border:0px;}
+a {outline:none;}
+p {margin: 5px 0;}
+p, li, h1, h2, h3 {text-shadow: 0px 2px 0 #183747;}
+
+h1, h2, h3 {font-family: "BevanRegular", "Times New Roman",Georgia,Serif; color: #eaeaea; font-weight: normal;}
+h1, h2 { text-align: center;}
+h1 {font-size: 5em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.3em; margin: 10px 0;}
+
+#main em {display: block; margin: 20px 0; font-size: 1.15em; text-align: center;}
+#footer p {font: 0.8em Arial, Helvetica, Sans; color: #547080; text-align: center;}
+
+/* Divs------------------------------------------------------------------------- */
+
+#wrap{width: 860px; margin: 60px auto 50px  auto; font-size: 1.7em; color: #fff;}
+#content {margin-bottom: 30px;}
+#sidebar {float: left; width: 300px;}
+#header {height: 110px; background: url(../images/header-bg.png);}
+#logo {width: 300px; height: 225px; background: url(../images/logo.png);}
+
+#menu {height: 300px; height: 330px; font: 1.1em "BevanRegular", "Times New Roman",Georgia,Serif; text-align: center; background: url(../images/ul-bg.png) no-repeat; padding-top: 10px; margin-top:30px;}
+#menu li a, #menu li a:visited {color: #fafafa; text-transform: uppercase; text-shadow: 1px 3px 0px #333; text-decoration: none;  transition: all .3s linear; -o-transition: all .3s linear; -moz-transition: all .3s linear; -webkit-transition: all .3s linear;}
+#menu li a:hover, #menu li a:active {color: #e79f34; text-transform: uppercase; text-shadow: 0px 2px 0px #333; text-decoration: none;}
+#menu li {width: 220px; height: 30px; background: url(../images/menu.png); padding: 10px 0; margin: 30px auto;}
+
+#main {float: right; width: 480px;}
+
+/* Map------------------------------------------------------------------------- */
+
+#map_canvas{width: 450px; height: 300px;}
+#map_container { padding: 15px; background: #fff;}
+#shadow { width: 480px; height: 25px; background: url(../images/shadow.png); margin-bottom:20px;}
+
+.clear {clear: both;}
+
+#main a, #main a:visited {color: #7E9EAE; text-decoration: none;}
+#main a:hover, #main a:active {color: #FFF; text-decoration: underline;}
+#main ul {margin: 25px 0;}
+#main li {margin:15px 0; padding-left: 20px; background: url(../images/li.png) top left no-repeat;}
+
+
+#banner { width: 320px; height: 80px; background: url(../images/banner.png); position: absolute; margin: 270px 0 0 80px; z-index: 1;}
+
+#productos1, #productos2, #productos3 {margin-bottom: 40px; min-height: 165px;}
+#productos1 {padding-left: 170px; background: url(../images/productos1.png) left no-repeat;}
+#productos2 {padding-right: 170px; background: url(../images/productos2.png) right no-repeat;}
+#productos3 {padding-left: 170px; background: url(../images/productos3.png) left no-repeat;}
+
+/* Contact------------------------------------------------------------------------- */
+
+#contact-form {padding: 60px; background: url(../images/contact-form-bg.png) no-repeat; width: 360px; height: 280px; margin-top: 30px; }
+
+#contact-form p {padding-bottom:15px;}
+#contact-form input, #contact-form textarea {font: 1em "Times New Roman",Georgia,Serif; width:340px; color:#333; padding:5px 10px; border:1px solid #E7E6E2; outline:0;}
+#contact-form textarea {height:120px; overflow:auto;}
+#contact-form input:focus, #contact-form textarea:focus {color:#333; background:#E4EBEE; border-color:#E7E6E2;}
+#contact-form button {float:right; padding:3px 10px; font-size:0.9em; color:#666; font-weight:bold; cursor:pointer; border:1px solid #D6D6D6; background: #fff;}
+#contact-form button:hover {color:#333; border-color:#CCC;}

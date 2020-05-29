@@ -1,0 +1,3 @@
+Editar linea 4:
+
+$EmailTo = "sunombre@dominio.com";
